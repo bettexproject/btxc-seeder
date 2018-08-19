@@ -4,7 +4,7 @@ btxc-seeder
 This software is forked from bitcoin-seeder and modified for Bettex coin network.
 
 Original version resides at https://github.com/sipa/bitcoin-seeder
-Bettex coin version resides at https://github.com/Warrows/pivx-seeder
+Bettex coin version resides at https://github.com/Warrows/btxc-seeder
 
 BTXC-seeder is a crawler for the Bitcoin network, which exposes a list
 of reliable nodes via a built-in DNS server.
