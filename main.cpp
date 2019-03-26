@@ -404,6 +404,13 @@ static const string *seeds = mainnet_seeds;
 extern "C" void* ThreadSeeder(void*) {
   if (!fTestNet){
     db.Add(CService("51.15.252.109", 31470), true);
+    db.Add(CService("51.15.251.122", 31470), true);
+    db.Add(CService("51.15.243.145", 31470), true);
+    db.Add(CService("51.15.239.182", 31470), true);
+    db.Add(CService("51.15.115.27", 31470), true);
+    db.Add(CService("51.15.107.77", 31470), true);
+    db.Add(CService("51.15.44.15", 31470), true);
+    db.Add(CService("140.82.39.15", 31470), true);
   }
   do {
     for (int i=0; seeds[i] != ""; i++) {
